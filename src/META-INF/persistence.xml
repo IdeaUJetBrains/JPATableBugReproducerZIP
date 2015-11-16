@@ -2,7 +2,9 @@
 <persistence xmlns="http://java.sun.com/xml/ns/persistence" version="1.0">
 
     <persistence-unit name="BankOracle" transaction-type="JTA">
+
         <mapping-file>mappings.xml</mapping-file>
+        <!--<class>com.test.bank.account.Account</class>-->
 
         <properties>
             <property name="hibernate.connection.url" value="jdbc:hsqldb:file:C:/Users/Olga Pavlova/IdeaProjects/JPATableBugReproducerZIP/DB/DB"/>
