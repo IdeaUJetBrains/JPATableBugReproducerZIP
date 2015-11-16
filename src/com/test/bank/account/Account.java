@@ -23,6 +23,7 @@ public class Account implements Serializable {
         this.amount = amount;
     }
 
+    // todo BUG: suggested columns of table=ACCOUNT table, should be table=TBL_BANK_ACCOUNT
     @Id
     @Column(name = "ACCOUNTNUMBER")
     private String accountNumber;
