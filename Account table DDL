@@ -1,0 +1,9 @@
+CREATE TABLE "Account"
+(
+    "Value1" VARCHAR2(10),
+    "Value2" VARCHAR2(10),
+    "Heading" VARCHAR2(32),
+    "OpeningDate" DATE,
+    "ClosingDate" DATE,
+    "Version" VARCHAR2(20)
+);
